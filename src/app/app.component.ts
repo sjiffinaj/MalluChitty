@@ -33,8 +33,8 @@ export class AppComponent {
         ]
   idToLandOn: any;
   items!: any[];
-  textOrientation: TextOrientation = TextOrientation.HORIZONTAL
-  textAlignment: TextAlignment = TextAlignment.OUTER
+  textOrientation: TextOrientation = TextOrientation.VERTICAL
+  textAlignment: TextAlignment = TextAlignment.CENTER
 
   ngOnInit(){
     this.idToLandOn = this.seed[Math.floor(Math.random() * this.seed.length)];
