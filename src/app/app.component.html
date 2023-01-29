@@ -1,0 +1,19 @@
+<div class="center">
+  <ngx-wheel
+      [width]='750'
+      [height]='750'
+      [spinDuration]='25'
+      [spinAmount]='25'
+      [disableSpinOnClick]='false'
+      [items]='items'
+      [innerRadius]='50'
+      [textOrientation]='textOrientation'
+      [textAlignment]='textAlignment'
+      pointerStrokeColor='red'
+      pointerFillColor='purple'
+      [idToLandOn]='idToLandOn'
+      (onSpinStart)='before()'
+      (onSpinComplete)='after()'
+  ></ngx-wheel>
+</div>
+
